@@ -31,6 +31,8 @@
         </activity>
         <activity android:name=".ZoomActivity">
         </activity>
+        <activity android:name=".ConfettiActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -84,4 +84,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, ZoomActivity.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.confettiButton)
+    public void goToConffeti() {
+        Log.e(TAG, "Go to Confetti");
+        Intent intent = new Intent(MainActivity.this, ConfettiActivity.class);
+        startActivity(intent);
+    }
 }
