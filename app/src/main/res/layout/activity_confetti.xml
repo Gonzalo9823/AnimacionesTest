@@ -11,4 +11,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="tech.gonzalocaballero.animacionestest.ConfettiActivity">
 
+    <Button
+        android:text="¡CONFETTI!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/makeConfetti"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/leftSpace"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/rightSpace"/>
+
 </RelativeLayout>
